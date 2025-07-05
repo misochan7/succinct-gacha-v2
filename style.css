@@ -1,0 +1,31 @@
+body {
+  background-color: #000;
+  color: white;
+  font-family: monospace;
+  text-align: center;
+  padding: 30px;
+}
+
+.gacha-image {
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #fe11c5;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.result-box {
+  margin-top: 30px;
+}
+
+.art-image {
+  width: 200px;
+  border: 2px solid #fe11c5;
+  margin-bottom: 10px;
+}
