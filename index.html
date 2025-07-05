@@ -4,9 +4,22 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Succinct Gacha</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-<body style="background-color: black; color: white; text-align: center; padding-top: 50px;">
-  <h1>Welcome to Succinct Gacha!</h1>
-  <p>準備中…</p>
+<body>
+  <h1>Succinct Gacha</h1>
+
+  <div class="gacha-area">
+    <img src="assets/gacha-machine.png" alt="Gacha Machine" class="gacha-image" />
+    <button id="spinButton">Spin the Gacha!</button>
+  </div>
+
+  <div id="result" class="result-box" style="display: none;">
+    <img src="assets/sample-art.png" alt="Art Result" class="art-image" />
+    <p>Art by @sasami</p>
+    <a id="shareButton" href="#" target="_blank">Share on X</a>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
